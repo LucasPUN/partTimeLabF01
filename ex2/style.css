@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0c3866;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+#login-form-flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(54deg, #0c3866 34%, #4a4cb3);
+    padding: 48px 24px;
+}
+
+#login-form-title-container{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    justify-content: center;
+}
+
+#login-form-title-container *{
+    color: white;
+}
+
+#login-form-title-container h1{
+    margin-bottom: 8px;
+}
+
+#login-form-title-container h5{
+    margin-top: 0px;
+}
+
+#login-form-container {
+    background-color: white;
+    width: 50%;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#login-form-container h2 {
+    margin-top: 8px;
+}
+
+#login-form-container label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+#login-form-container input {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 8px;
+}

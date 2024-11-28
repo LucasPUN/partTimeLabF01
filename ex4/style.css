@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0c3866;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+#navigation-bar {
+    display: flex;
+    color: white;
+    padding: 8px 28px;
+    position: absolute;
+    align-items: baseline;
+}
+
+#navigation-bar * {
+    color: white;
+}
+
+#nav-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 24px;
+}
+
+.nav-item {
+    margin: 0 12px;
+}
+
+.nav-item * {
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    text-decoration: underline white;
+}
+
+
+#login-form-flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(54deg, #0c3866 34%, #4a4cb3);
+    padding: 48px 24px;
+}
+
+#login-form-title-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+#login-form-title-container * {
+    color: white;
+}
+
+#login-form-title-container h1 {
+    margin-bottom: 8px;
+}
+
+#login-form-title-container h5 {
+    margin-top: 0;
+}
+
+#login-form-container {
+    background-color: white;
+    width: 50%;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#login-form-container h2 {
+    margin-top: 8px;
+}
+
+#login-form-container label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+#login-form-container input {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+.noselect{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#about-container{
+    padding: 24px;
+    background-color: white;
+}
+
+#about-title{
+    color: #0d3866;
+    border-left: 6px #0c3866 solid;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+
+#about-img-container{
+    display: flex;
+    justify-content: center;
+}
